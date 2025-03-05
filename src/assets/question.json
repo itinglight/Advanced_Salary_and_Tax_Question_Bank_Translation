@@ -7,7 +7,7 @@
         "categoryList": [
             {
                 "level": 1,
-                "id": 149352,
+                "id": 11,
                 "categoryId": 125912,
                 "parentId": 0,
                 "categoryName": "第11章 国别税制简介",
@@ -83,7 +83,7 @@
             },
             {
                 "level": 1,
-                "id": 149356,
+                "id": 10,
                 "categoryId": 125911,
                 "parentId": 0,
                 "categoryName": "第10章 国际税收",
@@ -97,7 +97,7 @@
                 "children": [
                     {
                         "level": 2,
-                        "id": 149357,
+                        "id": 10.5,
                         "categoryId": 125921,
                         "parentId": 149356,
                         "categoryName": "第五节 国际税收合作",
@@ -115,7 +115,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149358,
+                        "id": 10.4,
                         "categoryId": 125920,
                         "parentId": 149356,
                         "categoryName": "第四节 国际避税与反避税",
@@ -133,7 +133,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149359,
+                        "id": 10.3,
                         "categoryId": 125919,
                         "parentId": 149356,
                         "categoryName": "第三节 国际税收协定",
@@ -151,7 +151,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149360,
+                        "id": 10.2,
                         "categoryId": 125918,
                         "parentId": 149356,
                         "categoryName": "第二节 境外所得税收抵免制度",
@@ -169,7 +169,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149361,
+                        "id": 10.1,
                         "categoryId": 125917,
                         "parentId": 149356,
                         "categoryName": "第一节 国际税收概述",
@@ -197,7 +197,7 @@
             },
             {
                 "level": 1,
-                "id": 149362,
+                "id": 9,
                 "categoryId": 125910,
                 "parentId": 0,
                 "categoryName": "第9章 薪酬相关管理会计应用指引",
@@ -292,7 +292,7 @@
             },
             {
                 "level": 1,
-                "id": 149367,
+                "id": 8,
                 "categoryId": 125886,
                 "parentId": 0,
                 "categoryName": "第8章 薪酬相关国际会计准则",
@@ -306,7 +306,7 @@
                 "children": [
                     {
                         "level": 2,
-                        "id": 149368,
+                        "id": 8.4,
                         "categoryId": 125909,
                         "parentId": 149367,
                         "categoryName": "第四节 国际财务报告准则第2号——以股份为基础的支付",
@@ -324,7 +324,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149369,
+                        "id": 8.3,
                         "categoryId": 125908,
                         "parentId": 149367,
                         "categoryName": "第三节 国际会计准则第26号——退休福利计划的会计和报告",
@@ -342,7 +342,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149370,
+                        "id": 8.2,
                         "categoryId": 125907,
                         "parentId": 149367,
                         "categoryName": "第二节 国际会计准则第19号——雇员福利",
@@ -360,7 +360,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149371,
+                        "id": 8.1,
                         "categoryId": 125906,
                         "parentId": 149367,
                         "categoryName": "第一节 国际会计准则第1号——财务报表列报",
@@ -387,7 +387,7 @@
             },
             {
                 "level": 1,
-                "id": 149372,
+                "id": 7,
                 "categoryId": 125885,
                 "parentId": 0,
                 "categoryName": "第7章 薪酬相关劳动法专业知识（中国）",
@@ -558,7 +558,7 @@
             },
             {
                 "level": 1,
-                "id": 149381,
+                "id": 6,
                 "categoryId": 125879,
                 "parentId": 0,
                 "categoryName": "第6章 薪酬相关涉费专业知识（中国）",
@@ -572,7 +572,7 @@
                 "children": [
                     {
                         "level": 2,
-                        "id": 149382,
+                        "id": 6.3,
                         "categoryId": 125882,
                         "parentId": 149381,
                         "categoryName": "第三节 薪酬对应的社会保险费申报与缴纳",
@@ -590,7 +590,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149383,
+                        "id": 6.2,
                         "categoryId": 125881,
                         "parentId": 149381,
                         "categoryName": "第二节 企业年金、职业年金、商业养老保险和商业健康保险等基础知识",
@@ -608,7 +608,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149384,
+                        "id": 6.1,
                         "categoryId": 125880,
                         "parentId": 149381,
                         "categoryName": "第一节 社会保险、住房公积金、残疾人就业保障金基础知识",
@@ -634,7 +634,7 @@
             },
             {
                 "level": 1,
-                "id": 149385,
+                "id": 5,
                 "categoryId": 125875,
                 "parentId": 0,
                 "categoryName": "第5章 薪酬相关涉税专业知识（中国）",
@@ -648,7 +648,7 @@
                 "children": [
                     {
                         "level": 2,
-                        "id": 149386,
+                        "id": 5.3,
                         "categoryId": 125878,
                         "parentId": 149385,
                         "categoryName": "第三节 薪酬对应的主要税种申报与缴纳",
@@ -666,7 +666,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149387,
+                        "id": 5.2,
                         "categoryId": 125877,
                         "parentId": 149385,
                         "categoryName": "第二节 个人所得税基础知识",
@@ -684,7 +684,7 @@
                     },
                     {
                         "level": 2,
-                        "id": 149388,
+                        "id": 5.1,
                         "categoryId": 125876,
                         "parentId": 149385,
                         "categoryName": "第一节 税收概论",
@@ -710,7 +710,7 @@
             },
             {
                 "level": 1,
-                "id": 149389,
+                "id": 3,
                 "categoryId": 125872,
                 "parentId": 0,
                 "categoryName": "第3章 国际薪酬和福利",
@@ -767,7 +767,7 @@
             },
             {
                 "level": 1,
-                "id": 149392,
+                "id": 2,
                 "categoryId": 125750,
                 "parentId": 0,
                 "categoryName": "第2章 薪酬管理体系设计与实施",
@@ -976,7 +976,7 @@
             },
             {
                 "level": 1,
-                "id": 149403,
+                "id": 1,
                 "categoryId": 125703,
                 "parentId": 0,
                 "categoryName": "第1章 薪酬与福利战略",
@@ -1071,7 +1071,7 @@
             },
             {
                 "level": 1,
-                "id": 149408,
+                "id": 90,
                 "categoryId": 66395,
                 "parentId": 0,
                 "categoryName": "专项练习 综合题",
