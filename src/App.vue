@@ -45,9 +45,9 @@ const change = (id)=>{
 <template>
   <div v-once  class="header hidden-element box"  v-show="true">
     <div v-for="item in questionDataProcess"> 
-      <div class="title" @click="change(item.id)">{{ item.categoryName + item.totalQuestionCount}} </div>
+      <div class="title" @click="change(item.id)">{{ item.categoryName }} <span class="count"> 共{{ item.totalQuestionCount }}道</span></div>
       <div v-if="item.totalQuestionCount>=100" class="hover t2" v-for="its in item.children.reverse()" @click="change(its.id)" >
-        {{ its.categoryName }}
+        {{ its.categoryName }} <span class="count"> 共{{ its.totalQuestionCount }}道</span>
       </div>
     </div>
      
@@ -61,6 +61,11 @@ const change = (id)=>{
   .hidden-element{
     display: none!important;
   }
+}
+.count{
+  display: inline-block;
+  font-size: 10px;
+  color: #00000073;
 }
 .title{
   font-weight: 900;
