@@ -45,8 +45,8 @@ const change = (id)=>{
 <template>
   <div v-once  class="header hidden-element box"  v-show="true">
     <div v-for="item in questionDataProcess"> 
-      <h2 @click="change(item.id)">{{ item.categoryName + item.totalQuestionCount}} </h2>
-      <div v-if="item.totalQuestionCount>=100" class="hover" v-for="its in item.children.reverse()" @click="change(its.id)" >
+      <div class="title" @click="change(item.id)">{{ item.categoryName + item.totalQuestionCount}} </div>
+      <div v-if="item.totalQuestionCount>=100" class="hover t2" v-for="its in item.children.reverse()" @click="change(its.id)" >
         {{ its.categoryName }}
       </div>
     </div>
@@ -61,6 +61,16 @@ const change = (id)=>{
   .hidden-element{
     display: none!important;
   }
+}
+.title{
+  font-weight: 900;
+}
+.title:hover{
+  background-color: #f69555;
+}
+
+.t2:hover{
+
 }
 .box{
   border:2px solid red;
