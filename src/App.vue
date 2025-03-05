@@ -1,7 +1,6 @@
 <script setup>
 import { ref ,onMounted} from "vue";
-import JsonData from "./assets/10.json"
-
+import JsonData from "./assets/1.json"
 import Question from "./components/Question.vue"
 import questionData from "./assets/question.json"
 let questionDataProcess = questionData.result.categoryList.reverse();
@@ -12,7 +11,7 @@ let JsonDataStr = ref(JSON.stringify(JsonData))
 const jsonModules = import.meta.glob('./assets/*.json');
 
 // 创建一个对象，用于存储每个 JSON 文件的数据
-const jsonData = ref({});
+const jsonDataArry = ref({});
 
 onMounted(async () => {
   console.log("1111")
@@ -26,20 +25,20 @@ onMounted(async () => {
         console.log(`Loading: ${path}`);
         const module = await jsonModules[path](); // 动态导入 JSON 文件
         const fileName = path.split('/').pop().replace('.json', ''); // 提取文件名（去掉扩展名）
-        jsonData.value[fileName] = module.default; // 将 JSON 数据存储到 jsonData 中
+        jsonDataArry.value[fileName] = module.default; // 将 JSON 数据存储到 jsonDataArry 中
       } catch (error) {
         console.error(`Failed to load JSON file: ${path}`, error);
       }
     }
-    console.log('JSON loading completed:', jsonData.value);
+    console.log('JSON loading completed:', jsonDataArry.value);
   } catch (error) {
     console.error('Error during JSON loading:', error);
   }
 })
 const change = (id)=>{
   console.log("change",id)
-  console.log("",jsonData.value[id])
-  JsonDataStr.value = JSON.stringify(jsonData.value[id])
+  console.log("",jsonDataArry.value[id])
+  JsonDataStr.value = JSON.stringify(jsonDataArry.value[id])
 }
 </script>
 
