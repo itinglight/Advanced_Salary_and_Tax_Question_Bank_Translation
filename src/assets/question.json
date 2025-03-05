@@ -1,0 +1,1093 @@
+{
+    "status": 0,
+    "message": "请求成功",
+    "result": {
+        "totalQuestionCount": 1009,
+        "totalCategoryCount": 57,
+        "categoryList": [
+            {
+                "level": 1,
+                "id": 149352,
+                "categoryId": 125912,
+                "parentId": 0,
+                "categoryName": "第11章 国别税制简介",
+                "totalQuestionCount": 53,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": true,
+                "lastDoItemTime": "2025-03-05 16:30:44",
+                "submitStatus": 0,
+                "paperDatalogId": 112804478,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149353,
+                        "categoryId": 125924,
+                        "parentId": 149352,
+                        "categoryName": "第三节 “一带一路”主要投资国税制",
+                        "totalQuestionCount": 30,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 112804430,
+                        "children": null,
+                        "allCategoryId": [
+                            125924
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149354,
+                        "categoryId": 125923,
+                        "parentId": 149352,
+                        "categoryName": "第二节 英国税制",
+                        "totalQuestionCount": 10,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125923
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149355,
+                        "categoryId": 125922,
+                        "parentId": 149352,
+                        "categoryName": "第一节 美国税制",
+                        "totalQuestionCount": 13,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 112804540,
+                        "children": null,
+                        "allCategoryId": [
+                            125922
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125912,
+                    125924,
+                    125923,
+                    125922
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149356,
+                "categoryId": 125911,
+                "parentId": 0,
+                "categoryName": "第10章 国际税收",
+                "totalQuestionCount": 262,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112804766,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149357,
+                        "categoryId": 125921,
+                        "parentId": 149356,
+                        "categoryName": "第五节 国际税收合作",
+                        "totalQuestionCount": 42,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 112809133,
+                        "children": null,
+                        "allCategoryId": [
+                            125921
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149358,
+                        "categoryId": 125920,
+                        "parentId": 149356,
+                        "categoryName": "第四节 国际避税与反避税",
+                        "totalQuestionCount": 53,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125920
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149359,
+                        "categoryId": 125919,
+                        "parentId": 149356,
+                        "categoryName": "第三节 国际税收协定",
+                        "totalQuestionCount": 72,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125919
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149360,
+                        "categoryId": 125918,
+                        "parentId": 149356,
+                        "categoryName": "第二节 境外所得税收抵免制度",
+                        "totalQuestionCount": 56,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125918
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149361,
+                        "categoryId": 125917,
+                        "parentId": 149356,
+                        "categoryName": "第一节 国际税收概述",
+                        "totalQuestionCount": 39,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125917
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125911,
+                    125921,
+                    125920,
+                    125919,
+                    125918,
+                    125917
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149362,
+                "categoryId": 125910,
+                "parentId": 0,
+                "categoryName": "第9章 薪酬相关管理会计应用指引",
+                "totalQuestionCount": 17,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112808419,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149363,
+                        "categoryId": 125916,
+                        "parentId": 149362,
+                        "categoryName": "第四节 绩效管理领域",
+                        "totalQuestionCount": 3,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 112807387,
+                        "children": null,
+                        "allCategoryId": [
+                            125916
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149364,
+                        "categoryId": 125915,
+                        "parentId": 149362,
+                        "categoryName": "第三节 成本管理领域",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125915
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149365,
+                        "categoryId": 125914,
+                        "parentId": 149362,
+                        "categoryName": "第二节 预算管理领域",
+                        "totalQuestionCount": 3,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125914
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149366,
+                        "categoryId": 125913,
+                        "parentId": 149362,
+                        "categoryName": "第一节 战略管理领域",
+                        "totalQuestionCount": 3,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125913
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125910,
+                    125916,
+                    125915,
+                    125914,
+                    125913
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149367,
+                "categoryId": 125886,
+                "parentId": 0,
+                "categoryName": "第8章 薪酬相关国际会计准则",
+                "totalQuestionCount": 104,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112808523,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149368,
+                        "categoryId": 125909,
+                        "parentId": 149367,
+                        "categoryName": "第四节 国际财务报告准则第2号——以股份为基础的支付",
+                        "totalQuestionCount": 40,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 112809154,
+                        "children": null,
+                        "allCategoryId": [
+                            125909
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149369,
+                        "categoryId": 125908,
+                        "parentId": 149367,
+                        "categoryName": "第三节 国际会计准则第26号——退休福利计划的会计和报告",
+                        "totalQuestionCount": 9,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125908
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149370,
+                        "categoryId": 125907,
+                        "parentId": 149367,
+                        "categoryName": "第二节 国际会计准则第19号——雇员福利",
+                        "totalQuestionCount": 45,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125907
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149371,
+                        "categoryId": 125906,
+                        "parentId": 149367,
+                        "categoryName": "第一节 国际会计准则第1号——财务报表列报",
+                        "totalQuestionCount": 10,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125906
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125886,
+                    125909,
+                    125908,
+                    125907,
+                    125906
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149372,
+                "categoryId": 125885,
+                "parentId": 0,
+                "categoryName": "第7章 薪酬相关劳动法专业知识（中国）",
+                "totalQuestionCount": 58,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112808718,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149373,
+                        "categoryId": 125905,
+                        "parentId": 149372,
+                        "categoryName": "第八节 职工民主管理",
+                        "totalQuestionCount": 7,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125905
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149374,
+                        "categoryId": 125904,
+                        "parentId": 149372,
+                        "categoryName": "第七节 集体合同管理",
+                        "totalQuestionCount": 6,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125904
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149375,
+                        "categoryId": 125903,
+                        "parentId": 149372,
+                        "categoryName": "第六节 劳动规章制度制定和实施",
+                        "totalQuestionCount": 4,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125903
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149376,
+                        "categoryId": 125902,
+                        "parentId": 149372,
+                        "categoryName": "第五节 女职工和未成年工特殊劳动保护",
+                        "totalQuestionCount": 6,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125902
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149377,
+                        "categoryId": 125901,
+                        "parentId": 149372,
+                        "categoryName": "第四节 职业病防治管理制度",
+                        "totalQuestionCount": 1,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125901
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149378,
+                        "categoryId": 125900,
+                        "parentId": 149372,
+                        "categoryName": "第三节 职业安全卫生与劳动保护管理制度",
+                        "totalQuestionCount": 3,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125900
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149379,
+                        "categoryId": 125899,
+                        "parentId": 149372,
+                        "categoryName": "第二节 劳动法和劳动合同法",
+                        "totalQuestionCount": 28,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125899
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149380,
+                        "categoryId": 125898,
+                        "parentId": 149372,
+                        "categoryName": "第一节 劳动关系概述",
+                        "totalQuestionCount": 3,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125898
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125885,
+                    125905,
+                    125904,
+                    125903,
+                    125902,
+                    125901,
+                    125900,
+                    125899,
+                    125898
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149381,
+                "categoryId": 125879,
+                "parentId": 0,
+                "categoryName": "第6章 薪酬相关涉费专业知识（中国）",
+                "totalQuestionCount": 115,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112808760,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149382,
+                        "categoryId": 125882,
+                        "parentId": 149381,
+                        "categoryName": "第三节 薪酬对应的社会保险费申报与缴纳",
+                        "totalQuestionCount": 10,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125882
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149383,
+                        "categoryId": 125881,
+                        "parentId": 149381,
+                        "categoryName": "第二节 企业年金、职业年金、商业养老保险和商业健康保险等基础知识",
+                        "totalQuestionCount": 12,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125881
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149384,
+                        "categoryId": 125880,
+                        "parentId": 149381,
+                        "categoryName": "第一节 社会保险、住房公积金、残疾人就业保障金基础知识",
+                        "totalQuestionCount": 93,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125880
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125879,
+                    125882,
+                    125881,
+                    125880
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149385,
+                "categoryId": 125875,
+                "parentId": 0,
+                "categoryName": "第5章 薪酬相关涉税专业知识（中国）",
+                "totalQuestionCount": 277,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112809064,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149386,
+                        "categoryId": 125878,
+                        "parentId": 149385,
+                        "categoryName": "第三节 薪酬对应的主要税种申报与缴纳",
+                        "totalQuestionCount": 24,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 111936178,
+                        "children": null,
+                        "allCategoryId": [
+                            125878
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149387,
+                        "categoryId": 125877,
+                        "parentId": 149385,
+                        "categoryName": "第二节 个人所得税基础知识",
+                        "totalQuestionCount": 206,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125877
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149388,
+                        "categoryId": 125876,
+                        "parentId": 149385,
+                        "categoryName": "第一节 税收概论",
+                        "totalQuestionCount": 47,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125876
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125875,
+                    125878,
+                    125877,
+                    125876
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149389,
+                "categoryId": 125872,
+                "parentId": 0,
+                "categoryName": "第3章 国际薪酬和福利",
+                "totalQuestionCount": 11,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112808995,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149390,
+                        "categoryId": 125874,
+                        "parentId": 149389,
+                        "categoryName": "第二节 国际薪酬和福利的规划和实施",
+                        "totalQuestionCount": 5,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125874
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149391,
+                        "categoryId": 125873,
+                        "parentId": 149389,
+                        "categoryName": "第一节 国际薪酬和福利问题",
+                        "totalQuestionCount": 6,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125873
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125872,
+                    125874,
+                    125873
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149392,
+                "categoryId": 125750,
+                "parentId": 0,
+                "categoryName": "第2章 薪酬管理体系设计与实施",
+                "totalQuestionCount": 68,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 111863662,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149393,
+                        "categoryId": 125760,
+                        "parentId": 149392,
+                        "categoryName": "第十节 薪酬和福利沟通",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125760
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149394,
+                        "categoryId": 125759,
+                        "parentId": 149392,
+                        "categoryName": "第九节 实施战略性薪酬和福利",
+                        "totalQuestionCount": 4,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125759
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149395,
+                        "categoryId": 125758,
+                        "parentId": 149392,
+                        "categoryName": "第八节 薪酬和福利项目的预算与控制",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125758
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149396,
+                        "categoryId": 125757,
+                        "parentId": 149392,
+                        "categoryName": "第七节 薪酬和福利项目价值评估",
+                        "totalQuestionCount": 4,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125757
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149397,
+                        "categoryId": 125756,
+                        "parentId": 149392,
+                        "categoryName": "第六节 福利",
+                        "totalQuestionCount": 4,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125756
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149398,
+                        "categoryId": 125755,
+                        "parentId": 149392,
+                        "categoryName": "第五节 浮动薪酬",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125755
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149399,
+                        "categoryId": 125754,
+                        "parentId": 149392,
+                        "categoryName": "第四节 决定个人薪酬变动的因素",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125754
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149400,
+                        "categoryId": 125753,
+                        "parentId": 149392,
+                        "categoryName": "第三节 薪酬水平",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125753
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149401,
+                        "categoryId": 125752,
+                        "parentId": 149392,
+                        "categoryName": "第二节 薪酬结构",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125752
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149402,
+                        "categoryId": 125751,
+                        "parentId": 149392,
+                        "categoryName": "第一节 职位等级与岗位评价",
+                        "totalQuestionCount": 8,
+                        "finishedCount": 0,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 112684264,
+                        "children": null,
+                        "allCategoryId": [
+                            125751
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125750,
+                    125760,
+                    125759,
+                    125758,
+                    125757,
+                    125756,
+                    125755,
+                    125754,
+                    125753,
+                    125752,
+                    125751
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149403,
+                "categoryId": 125703,
+                "parentId": 0,
+                "categoryName": "第1章 薪酬与福利战略",
+                "totalQuestionCount": 35,
+                "finishedCount": 35,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 112808881,
+                "children": [
+                    {
+                        "level": 2,
+                        "id": 149404,
+                        "categoryId": 125743,
+                        "parentId": 149403,
+                        "categoryName": "第四节 薪酬和福利与激励",
+                        "totalQuestionCount": 5,
+                        "finishedCount": 5,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125743
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149405,
+                        "categoryId": 125740,
+                        "parentId": 149403,
+                        "categoryName": "第三节 薪酬和福利如何支持企业战",
+                        "totalQuestionCount": 4,
+                        "finishedCount": 4,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125740
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149406,
+                        "categoryId": 125737,
+                        "parentId": 149403,
+                        "categoryName": "第二节 制定薪酬和福利战略",
+                        "totalQuestionCount": 11,
+                        "finishedCount": 11,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": null,
+                        "paperDatalogId": null,
+                        "children": null,
+                        "allCategoryId": [
+                            125737
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "id": 149407,
+                        "categoryId": 125704,
+                        "parentId": 149403,
+                        "categoryName": "第一节 薪酬战略框架",
+                        "totalQuestionCount": 15,
+                        "finishedCount": 15,
+                        "authorized": true,
+                        "isLastDoItemLocation": false,
+                        "lastDoItemTime": null,
+                        "submitStatus": 0,
+                        "paperDatalogId": 112728409,
+                        "children": null,
+                        "allCategoryId": [
+                            125704
+                        ]
+                    }
+                ],
+                "allCategoryId": [
+                    125703,
+                    125743,
+                    125740,
+                    125737,
+                    125704
+                ]
+            },
+            {
+                "level": 1,
+                "id": 149408,
+                "categoryId": 66395,
+                "parentId": 0,
+                "categoryName": "专项练习 综合题",
+                "totalQuestionCount": 9,
+                "finishedCount": 0,
+                "authorized": true,
+                "isLastDoItemLocation": false,
+                "lastDoItemTime": null,
+                "submitStatus": 0,
+                "paperDatalogId": 111853092,
+                "children": null,
+                "allCategoryId": [
+                    66395
+                ]
+            }
+        ]
+    },
+    "requestId": "07466f847f0775085fe562f87eca6395"
+}
