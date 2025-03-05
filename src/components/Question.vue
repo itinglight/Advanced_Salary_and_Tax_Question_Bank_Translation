@@ -1,6 +1,6 @@
 <template>
       <div v-if="JsonData.result" >
-      <h1 class="title"> {{ JsonData.result.title }} 
+      <h1 > {{ JsonData.result.title }} 
         <div class="hidden-element btn">
             <button class="btn " @click="showAnswerFn">{{ !showAnswer?'查看答案':'隐藏答案' }}</button> 
             <button v-if="showAnswer" class="btn" style="margin: 0px 10px;" @click="showAnalysisFn">{{ !showAnalysis?'查看解析':'隐藏解析' }}</button>
