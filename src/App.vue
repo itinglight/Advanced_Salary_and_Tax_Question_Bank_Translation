@@ -79,6 +79,7 @@ const change = (id)=>{
 }
 .box{
   border:2px solid red;
+  padding: 10px;
 }
 .hover:hover{
   background-color: yellow;
