@@ -15,17 +15,15 @@ const jsonModules = import.meta.glob('./assets/*.json');
 const jsonDataArry = ref({});
 let questionDataProcess = questionData.result.categoryList.reverse();
 
-// Process children arrays once during setup
-questionDataProcess = questionDataProcess.map(item => ({
-  ...item,
-  children: item.children ? item.children.reverse() : []
-}));
-
 onMounted(async () => {
   console.log("1111")
   // JsonDataStr.value = JSON.stringify(JsonData)
   // console.log(JsonDataStr.value)
+// 反转questionData.result.categoryListchildren.reverse()
 
+questionDataProcess.result.categoryList = questionData.result.categoryList.map(item=>{
+  item.children.reverse()
+})
   try {
     // 遍历所有匹配的 JSON 文件并加载
     for (const path in jsonModules) {
@@ -55,7 +53,7 @@ const change = (id)=>{
   <div  class="header hidden-element box"  v-show="true">
     <div v-for="item in questionDataProcess"> 
       <div class="title" :class="{ active: activeIndex == item.id }" @click="change(item.id)">{{ item.categoryName }} <span class="count"> 共{{ item.totalQuestionCount }}道</span></div>
-      <div v-if="item.totalQuestionCount>=100" class="t2" :class="{ active: activeIndex == its.id }" v-for="its in item.children" @click="change(its.id)" >
+      <div v-if="item.totalQuestionCount>=100" class="t2" :class="{ active: activeIndex == its.id }" v-for="its in item.children.reverse()" @click="change(its.id)" >
         {{ its.categoryName }} <span class="count"> 共{{ its.totalQuestionCount }}道</span>
       </div>
     </div>
