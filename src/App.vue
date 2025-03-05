@@ -7,6 +7,7 @@ let questionDataProcess = questionData.result.categoryList.reverse();
 let questionList = JsonData.result.moduleList.questionList
 let JsonDataStr = ref(JSON.stringify(JsonData))
 
+let activeIndex = ref(1)
 // 使用 import.meta.glob 动态加载 assets 目录下的所有 JSON 文件
 const jsonModules = import.meta.glob('./assets/*.json');
 
@@ -36,17 +37,18 @@ onMounted(async () => {
   }
 })
 const change = (id)=>{
-  console.log("change",id)
+  console.log("change",id,activeIndex.value)
   console.log("",jsonDataArry.value[id])
+  activeIndex.value = id
   JsonDataStr.value = JSON.stringify(jsonDataArry.value[id])
 }
 </script>
 
 <template>
-  <div v-once  class="header hidden-element box"  v-show="true">
+  <div  class="header hidden-element box"  v-show="true">
     <div v-for="item in questionDataProcess"> 
-      <div class="title" @click="change(item.id)">{{ item.categoryName }} <span class="count"> 共{{ item.totalQuestionCount }}道</span></div>
-      <div v-if="item.totalQuestionCount>=100" class="hover t2" v-for="its in item.children.reverse()" @click="change(its.id)" >
+      <div class="title" :class="{ active: activeIndex == item.id }" @click="change(item.id)">{{ item.categoryName }} <span class="count"> 共{{ item.totalQuestionCount }}道</span></div>
+      <div v-if="item.totalQuestionCount>=100" class="t2" :class="{ active: activeIndex == its.id }" v-for="its in item.children.reverse()" @click="change(its.id)" >
         {{ its.categoryName }} <span class="count"> 共{{ its.totalQuestionCount }}道</span>
       </div>
     </div>
@@ -70,18 +72,14 @@ const change = (id)=>{
 .title{
   font-weight: 900;
 }
-.title:hover{
+.active{
   background-color: #f69555;
 }
 
-.t2:hover{
 
-}
 .box{
   border:2px solid red;
   padding: 10px;
 }
-.hover:hover{
-  background-color: yellow;
-}
+
 </style>
