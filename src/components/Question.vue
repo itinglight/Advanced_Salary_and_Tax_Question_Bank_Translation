@@ -7,12 +7,30 @@
         </div>
     </h1> 
       <!-- 回答 -->
-       <div v-for="list in JsonData.result.moduleList">
+       <div v-for="(list,index1) in JsonData.result.moduleList">
+           <h2 v-if="index1==1">多选题</h2>
+           <h2 v-if="index1==2">简答题</h2>
            <div v-for="(ls ,index) in list.questionList">
-           <h4 style="margin:5px 0px 3px 0px;">{{ index+1 }}. <span v-html="ls.title"></span><span v-if="showAnswer"  class="answer">答案: {{ ls.questionAnswer.answer }}</span></h4>  
+            
+           <h4 style="margin:5px 0px 3px 0px;">{{ index+1 }}. <span v-html="ls.title"></span><span v-if="showAnswer"  class="answer"><span v-if="!ls.subQuestionList">答案: </span> {{ ls.questionAnswer.answer }}</span></h4>  
            <p   v-html="ls.option"></p>
+           <!-- JSONData id >12.1 -->
+            <div v-if="ls.subQuestionList" >
+                <div v-for="(lss,index ) in ls.subQuestionList">
+                    <div style="display: flex; font-weight: 800;">
+                      {{ index+1 }}. <span v-html="lss.title" ></span>
+                    </div>
+                    <div style="display: flex;">
+                      答案: <span v-html="lss.questionAnswer.answer"></span>
+                    </div>
+                    <p v-if="showAnswer&&showAnalysis" v-html="lss.questionAnswer.analysis" class="analysis"></p>
+                </div>
+              
+            </div>
+            <!--  -->
            <p v-if="showAnswer&&showAnalysis" v-html="ls.questionAnswer.analysis" class="analysis"></p>
-           </div>
+           
+          </div>
        </div>
   </div>
 
