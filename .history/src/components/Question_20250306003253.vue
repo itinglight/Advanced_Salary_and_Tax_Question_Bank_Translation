@@ -10,7 +10,7 @@
        <div v-for="list in JsonData.result.moduleList">
            <div v-for="(ls ,index) in list.questionList">
            <h4 style="margin:5px 0px 3px 0px;">{{ index+1 }}. <span v-html="ls.title"></span><span v-if="showAnswer"  class="answer">答案: {{ ls.questionAnswer.answer }}</span></h4>  
-           <p   v-html="ls.option"></p>
+           <p  v-if="!showAnswer" v-html="ls.option"></p>
            <p v-if="showAnswer&&showAnalysis" v-html="ls.questionAnswer.analysis" class="analysis"></p>
            </div>
        </div>
