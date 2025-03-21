@@ -16,11 +16,11 @@
            <p   v-html="ls.option"></p>
            <!-- JSONData id >12.1 -->
             <div v-if="ls.subQuestionList" >
-                <div v-for="(lss,index ) in ls.subQuestionList">
-                    <div style="display: flex; font-weight: 800;">
-                      {{ index+1 }}. <span v-html="lss.title" ></span>
+                <div v-for="(lss,index3 ) in ls.subQuestionList">
+                    <div style="display: flex; font-weight: 800; margin-left: 15px;">
+                      {{ index3+1 }}. <span v-html="lss.title" ></span>
                     </div>
-                    <div style="display: flex;">
+                    <div  v-if="showAnswer" style="display: flex;">
                       答案: <span v-html="lss.questionAnswer.answer"></span>
                     </div>
                     <p v-if="showAnswer&&showAnalysis" v-html="lss.questionAnswer.analysis" class="analysis"></p>
